@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background-color: #08293f;
+    color: #ededed;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight:500 ;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:active,
+.navbar a:hover {
+  color: #00abf0;
+}
+.home {
+
+    font-family: 'poppins',sans-serif;
+    background:url('homeimg.jpg') no-repeat;
+   height: 100vh;
+   display: flex;
+  align-items: center;
+   padding:  0 10%;
+} 
+ .home-info{
+    max-width: 600;
+ }
+
+ .home h1{
+    font-size: 56px;
+    font-weight: 700;
+    list-style: 1.2;
+ }
+
+ .home-info h3{   
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+ }
+ .home-info p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+ }
+ .home-info .bnt-box{
+    display: flex;
+    width: 345px;
+    height: 50px;
+  }
+  #homeimg{
+    display: inline;
+    float: right;
+    margin-left: 50%;
+    align-items: right;
+  }
+  .bnt-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    width: 150px;
+    height: 100%;
+    background-color: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px ;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    align-items: center;
+  }
+  
+  .bnt-box a:hover{
+    background-color: transparent;
+    color: #00abf0;
+    z-index: .1;
+    cursor: pointer;
+  }
+  .home-icons{
+    position: absolute;
+    bottom:40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .home-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    color: #00abf0;
+    text-decoration: none;
+  }
+  .home-icons a:hover{
+    background-color: #00abf0;
+    color: #081b29;
+    z-index: .1;
+    cursor: pointer;
+  }
+  .about-img {
+    margin-top: 50px;
+    margin-left:40%;
+}
+.h1 {
+  color: #00abf0;
+  margin-left:10%;
+ padding-left: 50px;
+  max-width: 80%;
+  /* min-width: 600px; */
+}
+.pa{
+  margin-left: 10%;
+  padding-left: 50px;
+   max-width: 80%;
+}
+.bxs-music ,.bxs-cricket-ball ,.bxs-book ,.bx-user-circle ,.bxs-phone ,.bxs-envelope{
+  color: #00abf0;
+}
+.Me{
+margin-top: 70px;
+margin-left: 45%;
+}
+.I{
+  color: #00abf0;
+}
+.Education{
+ 
+  margin-top: 70px;
+  text-align: center;
+}
+#edu-my{
+  color: #00abf0;
+}
+.tenth {
+  padding: 10px;
+  margin-top: 8%;
+  padding-left: 3%;
+  margin-left: 20%;
+  border: #00abf0 solid 3px;
+  border-radius: 10px;
+  width: 800px;
+  
+}
+
+.twelfth{
+  padding: 10px;
+  margin-top: 30px;
+  margin-left:20% ;
+  padding-left: 3%;
+  border: #00abf0 solid 3px;
+  border-radius: 10px;
+  width: 800px;
+}
+.College{
+  padding: 10px;
+  margin-top: 30px;
+  margin-left:20% ;
+  padding-left: 3%;
+  border: #00abf0 solid 3px;
+  border-radius: 10px;
+  width: 800px;
+}
+
+.skill{
+  text-align: center;
+  margin-top: 70px;
+
+}
+#Skill{
+  color: #00abf0 ;
+}
+.skills{
+  
+  border: #08293f; 
+  display: inline;
+  justify-content: space-between;
+  width: 600px;
+  padding: 10px;
+  margin: 10px;
+}
+.type{
+  border: solid 2px #00abf0;
+  width: 700px;
+ align-items: center;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left:25% ;
+}
+.per{
+ 
+  width: 500px;
+  height:5%;
+}
+.con{
+  margin-top: 70px;
+  text-align: center;
+}
+.con-me{
+  color:#00abf0;
+}
+.input{
+text-align: center;
+padding: 10px;
+margin: 10% ;
+}
+#name{
+ font-weight: bolder;
+ margin: 20px;
+ 
+}
+#mn{
+  margin: 20px;
+}
+.bnt-{
+  position: relative;
+    justify-content: center;
+  width: 150px;
+  height: 100%;
+  background-color: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 8px;
+  font-size: 19px ;
+  color: #081b29;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.bnt- button :hover{
+  background-color: transparent;
+  color: #00abf0;
+  z-index: .1;
+  cursor: pointer;
+
+}
